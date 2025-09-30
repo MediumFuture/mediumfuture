@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Моят сайт</title>
-</head>
-<body>
+export default function Home() {
+  return (
+    <>
   if (status === 'loading') {
     return <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
       <div className="text-white text-xl">Loading...</div>
